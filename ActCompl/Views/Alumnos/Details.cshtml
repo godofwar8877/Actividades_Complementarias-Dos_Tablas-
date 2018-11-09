@@ -1,0 +1,114 @@
+﻿@model ActCompl.Models.Alumnos
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Alumnos</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.apellidop)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.apellidop)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.apellidom)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.apellidom)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.telefono)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.telefono)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_nacimiento)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.fecha_nacimiento)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.sexo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.sexo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.calle)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.calle)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.numero_ext)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.numero_ext)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.numero_int)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.numero_int)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.colonia)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.colonia)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.password)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.password)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.estatus)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.estatus)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.semestre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.semestre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.localidades_idlocalidades)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.localidades_idlocalidades)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.rol_idrol)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.rol_idrol)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.numero_control">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

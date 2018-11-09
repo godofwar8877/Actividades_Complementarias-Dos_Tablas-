@@ -1,0 +1,54 @@
+﻿@model ActCompl.Models.Instructor
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Instructor</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.apellidop)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.apellidop)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.apellidom)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.apellidom)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.sexo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.sexo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.rfc)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.rfc)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.formacion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.formacion)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.idinstructor">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

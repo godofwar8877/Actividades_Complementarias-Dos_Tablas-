@@ -1,0 +1,11 @@
+c:\users\hernan the ghost\source\repos\ActCompl\ActCompl\bin\Debug\netcoreapp2.0\ActCompl.deps.json
+c:\users\hernan the ghost\source\repos\ActCompl\ActCompl\bin\Debug\netcoreapp2.0\ActCompl.runtimeconfig.json
+c:\users\hernan the ghost\source\repos\ActCompl\ActCompl\bin\Debug\netcoreapp2.0\ActCompl.runtimeconfig.dev.json
+c:\users\hernan the ghost\source\repos\ActCompl\ActCompl\bin\Debug\netcoreapp2.0\ActCompl.dll
+c:\users\hernan the ghost\source\repos\ActCompl\ActCompl\obj\Debug\netcoreapp2.0\ActCompl.csprojResolveAssemblyReference.cache
+c:\users\hernan the ghost\source\repos\ActCompl\ActCompl\obj\Debug\netcoreapp2.0\ActCompl.csproj.CoreCompileInputs.cache
+c:\users\hernan the ghost\source\repos\ActCompl\ActCompl\obj\Debug\netcoreapp2.0\ActCompl.AssemblyInfoInputs.cache
+c:\users\hernan the ghost\source\repos\ActCompl\ActCompl\obj\Debug\netcoreapp2.0\ActCompl.AssemblyInfo.cs
+c:\users\hernan the ghost\source\repos\ActCompl\ActCompl\bin\Debug\netcoreapp2.0\ActCompl.pdb
+c:\users\hernan the ghost\source\repos\ActCompl\ActCompl\obj\Debug\netcoreapp2.0\ActCompl.dll
+c:\users\hernan the ghost\source\repos\ActCompl\ActCompl\obj\Debug\netcoreapp2.0\ActCompl.pdb

@@ -1,0 +1,125 @@
+﻿@model IEnumerable<ActCompl.Models.Alumnos>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.apellidop)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.apellidom)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.telefono)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.fecha_nacimiento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.sexo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.calle)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.numero_ext)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.numero_int)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.colonia)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.password)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.estatus)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.semestre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.localidades_idlocalidades)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.rol_idrol)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.apellidop)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.apellidom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fecha_nacimiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sexo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.calle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.numero_ext)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.numero_int)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.colonia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.estatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.semestre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.localidades_idlocalidades)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rol_idrol)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.numero_control">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.numero_control">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.numero_control">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
